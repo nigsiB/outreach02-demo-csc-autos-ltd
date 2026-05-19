@@ -1,0 +1,13 @@
+@import "tailwindcss";
+:root{--red:#dc2626;--black:#0a0a0a;--gray:#f3f4f6;--heading:var(--black);--muted:#64748b;--bg-card:#fff;--bg-trust:#f8f8f8;--bg-services:#f3f4f6;--bg-about:#fff;--bg-reviews:#ececec;--bg-gallery:#f3f4f6;--border-subtle:rgba(10,10,10,.08)}
+body{margin:0;background:var(--gray);font-family:var(--font-body),sans-serif}
+.font-head{font-family:var(--font-head),sans-serif}
+.form-input{width:100%;border:2px solid #ddd;padding:.6rem}
+.form-btn{width:100%;background:var(--red);color:#fff;padding:.75rem;font-family:var(--font-head),sans-serif;font-weight:700;text-transform:uppercase}
+.cta-primary{display:inline-block;background:var(--red);padding:.75rem 1.5rem;font-size:.875rem;font-weight:700;color:#fff;text-transform:uppercase;font-family:var(--font-head),sans-serif}
+.cta-secondary{display:inline-block;border:2px solid var(--black);padding:.75rem 1.5rem;font-size:.875rem;font-weight:700;color:var(--black);text-transform:uppercase;font-family:var(--font-head),sans-serif}
+.section-trust{background:var(--bg-trust);border-bottom:1px solid var(--border-subtle)}
+.section-services{background:var(--bg-services)}
+.section-about{background:var(--bg-about)}
+.section-reviews{background:var(--bg-reviews)}
+.section-gallery{background:var(--bg-gallery)}
